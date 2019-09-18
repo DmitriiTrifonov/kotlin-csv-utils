@@ -1,0 +1,6 @@
+﻿id;1;String
+title;Структура и интерпретация компьютерных программ;String
+authors;Харольд Абельсон, Джеральд Сассман;List<String?>
+totalPages;542;Int
+currentPage;1;Int
+notes;null;List<Notes?>
