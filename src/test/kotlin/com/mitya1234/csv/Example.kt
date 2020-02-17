@@ -1,7 +1,8 @@
-package com.mitya1234.kotlin.csv.utils
+package com.mitya1234.csv
 
 
-import com.mitya1234.kotlin.csv.utils.tools.CSVUtil.Companion.getCSVLines
+import com.mitya1234.csv.util.getCSVLines
+import com.mitya1234.csv.util.makeDataClass
 
 import java.nio.file.Paths
 
@@ -11,6 +12,8 @@ fun main(){
         println(path.toString())
 
         getCSVLines("./resources/Book.csv")?.forEach { println(it) }
+
+        makeDataClass("./resources/Book.csv")
 
         println("end")
 }
